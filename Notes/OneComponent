@@ -1,0 +1,28 @@
+A component has 4 files
+
+For example Display Component
+------------------------------
+    - display.component.ts
+    - display.component.html
+    - display.component.css
+    - display.component.spec.ts
+
+Steps to create a component
+-----------------------------
+2 ways to create
+
+1st Way
+--------
+    - manually create all the above specified files.
+    - make an entry of the component in app.module.ts file.
+    - Don't forget to use the selector of the component.
+
+2nd Way
+--------
+    - Use the command
+        ng generate component display
+            (or)
+        ng g c display
+    - Since we use the command no need to make an entry in the app.module.ts file.
+        It is automatically done.
+    - Don't forget to use the selector of the component.
